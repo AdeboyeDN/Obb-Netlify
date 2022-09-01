@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "onboardbase" : "onboardbase login & onboardbase setup",
-    "dev": "onboardbase run -c 'next dev'",
-    "build": "onboardbase run -c 'next build'",
-    "start": "onboardbase run -c 'next start'",
+    "onboardbase": "onboardbase login & onboardbase setup",
+    "dev": "onboardbase run -c \"next dev\"",
+    "build": "onboardbase run --command=\"next build\"",
+    "start": "onboardbase run --command=\"next start\"",
     "lint": "next lint"
   },
   "dependencies": {
+    "@onboardbase/cli": "^1.9.8",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
