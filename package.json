@@ -5,7 +5,7 @@
   "scripts": {
     "onboardbase": "onboardbase login & onboardbase setup",
     "dev": "onboardbase run -c \"next dev\"",
-    "build": "onboardbase run --command=\"next build\"",
+    "build": "next build",
     "start": "onboardbase run --command=\"next start\"",
     "lint": "next lint"
   },
