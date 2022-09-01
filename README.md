@@ -21,7 +21,7 @@ This command is use to install all required dependencies that comes bundled with
 
 This commands runs both `onboardbase login` and `onboardbase setup` at a go to make things fast and straight forward.
 
-### `npm run  dev`
+### `npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
