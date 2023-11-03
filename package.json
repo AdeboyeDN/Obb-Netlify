@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@onboardbase/cli": "^1.9.8",
+    "@onboardbase/cli": "^1.9.9",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
